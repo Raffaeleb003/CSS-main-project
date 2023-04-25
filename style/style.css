@@ -116,3 +116,22 @@ header .nav-links {
     border: 3px solid #3882f6;
     border-radius: 10px
 }
+
+#quote {
+    background-color: #e5e7eb
+}
+
+#quote blockquote {
+    width: 750px;
+    margin: auto
+}
+
+#quote blockquote em {
+    font-size: 36px;
+    font-weight: 100
+}
+
+#quote blockquote em cite {
+    text-align: right;
+    font-weight: bold
+}
