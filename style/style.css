@@ -131,7 +131,15 @@ header .nav-links {
     font-weight: 100
 }
 
-#quote blockquote em cite {
-    text-align: right;
-    font-weight: bold
+#action div {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 70%;
+    padding: 25px 50px;
+    align-items: center;
+    border-radius: 10px
+}
+
+#action .flex .button {
+    border: 3px solid
 }
