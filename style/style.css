@@ -25,10 +25,10 @@ body, html {
     padding: 100px 0;
 }
 
-/* .spacer-outer {
+.spacer-outer {
     margin: 100px auto;
     }
-*/
+
 .button {
     background-color: #3882F6;
     border: none;
@@ -105,7 +105,7 @@ header .nav-links {
     gap: 50px
 }
 
-#info .flex figure {
+#info .flex div figure {
     width: 150px;
     text-align: center;
 }
