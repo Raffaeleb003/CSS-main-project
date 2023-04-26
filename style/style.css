@@ -78,7 +78,7 @@ header .nav-links {
     font-size: 48px;
     font-weight: 900;
     color:#F9FAF8;
-    margin: 0;
+    margin-top: -20px
 }
 
 .hero-text p {
@@ -97,13 +97,13 @@ header .nav-links {
 }
 
 
-
 #info {
     flex-direction: column;
     align-items: center;
 }
 
 #info h2 {
+    margin-top: 30px;
     font-size: 36px;
     font-weight: 900;
 }
@@ -118,6 +118,7 @@ header .nav-links {
 }
 
 .box {
+    margin-top: 25px;
     width: 150px;
     height: 150px;
     border: 3px solid #3882f6;
@@ -148,6 +149,7 @@ header .nav-links {
 }
 
 #action .flex .button {
+    margin-left: 75px;
     border: 3px solid
 }
 
