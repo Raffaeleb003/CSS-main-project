@@ -361,7 +361,7 @@ footer {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 970px) {
   .right {
     display: none;
   }
