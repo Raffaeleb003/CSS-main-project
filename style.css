@@ -126,10 +126,6 @@ button:hover {
   flex: 1;
 }
 
-.right img {
-  width: 110%;
-  height: 110%;
-}
 
 .right p {
   font-size: var(--hero-secondary-text);
