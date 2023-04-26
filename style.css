@@ -126,6 +126,11 @@ button:hover {
   flex: 1;
 }
 
+.right img {
+  width: 110%;
+  height: 110%;
+}
+
 .right p {
   font-size: var(--hero-secondary-text);
   color: var(--quote-bg);
@@ -305,6 +310,7 @@ footer {
     flex: 0 1 200px;
     width: 100%;
   }
+
 
   .container {
     flex-direction: column;
