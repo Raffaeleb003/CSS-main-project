@@ -121,7 +121,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(166, 166, 166, 0.62);
+  background-color: #1f2937;
   height: 242px;
   flex: 1;
 }
