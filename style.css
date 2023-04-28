@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: white;
-  padding-top: 15px;
+  padding-top: 2vh;
 }
 
 .logo img{
@@ -60,8 +60,8 @@ body {
 }
 
 ul li {
-  padding-left: 25px;
-  font-size: var(--hero-secondary-text);
+  padding-left: 3vw;
+  font-size: 2.5vh;
   cursor: pointer;
 }
 
@@ -76,29 +76,29 @@ a:hover {
 }
 
 .left h1 {
-  font-size: var(--main-text);
+  font-size: 5vh;
   font-weight: 900;
   color: var(--main-text-color);
-  padding-right: 70px;
-  padding-bottom: 5px;
+  padding-right: 5vw;
+  padding-bottom: 1vh;
 }
 
 .left p {
-  font-size: var(--hero-secondary-text);
+  font-size: 2.5vh;
   color: var(--quote-bg);
-  padding-right: 150px;
-  padding-bottom: 15px;
+  padding-right: 10vw;
+  padding-bottom: 3vh;
 }
 
 button {
   background-color: var(--secondary-color);
-  padding: 8px 25px;
+  padding: 1vh 3vw;
   border: none;
   border-radius: 5px;
   color: white;
   cursor: pointer;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 2.5vh;
 }
 
 button:hover {
@@ -122,42 +122,44 @@ button:hover {
   justify-content: center;
   align-items: center;
   background-color: #1f2937;
-  height: 242px;
+  height: 35vh;
   flex: 1;
 }
 
 
 .right p {
-  font-size: var(--hero-secondary-text);
+  font-size: 2.5vh;
   color: var(--quote-bg);
 }
 
 #info h1 {
   text-align: center;
-  margin-top: 30px;
-  font-size: 36px;
+  margin-top: 3vh;
+  font-size: 3.6vh;
   font-weight: 900;
   color: var(--primary-color);
 }
 
 .container {
   width: 60%;
-  margin: 70px auto;
+  margin: 7vh auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .boxes {
-  width: 150px;
+  margin-left: 2%;
+  width: 15vw;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 .box {
-  height: 150px;
-  border: 5px solid var(--secondary-color);
+  height: 15vw;
+  width: auto;
+  border: 0.5vh solid var(--secondary-color);
   border-radius: 20px;
 }
 
@@ -172,72 +174,66 @@ button:hover {
 #quote {
   background-color: var(--quote-bg);
   color: var(--quote-color);
-  font-size: 36px;
+  font-size: 3.6vh;
   font-weight: lighter;
   font-style: italic;
   display: flex;
 }
 
 .inner-quote {
-  width: 50%;
-  margin: auto;
-  padding: 40px 0;
+width: 35%;
+margin: auto;
+padding: 8% 0;
 }
 
 blockquote {
-  justify-content: center;
-  align-items: center;
+justify-content: center;
+align-items: center;
+
 }
 
-cite {
-  font-weight: 900;
-  font-size: 18px;
-  display: flex;
-  justify-content: flex-end;
-}
 
 #action {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 80px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 8% 0;
 }
 
 .action-inner {
-  width: 70%;
-  padding: 30px 0;
-  background-color: var(--secondary-color);
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
+width: 80%;
+padding: 5% 0;
+background-color: var(--secondary-color);
+border-radius: 3vw;
+display: flex;
+justify-content: space-around;
 }
 
 .inner-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--main-text-color);
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--main-text-color);
 }
 
 .inner-right {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .inner-right button {
-  padding: 8px 25px;
-  border: 2px solid white;
-  border-radius: 10px;
-  cursor: pointer;
+border: 0.5vw solid white;
+border-radius: 3vw;
+cursor: pointer;
 }
 
 footer {
-  height: 10vh;
-  background-color: var(--primary-color);
-  color: var(--main-text-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+height: 10vh;
+background-color: var(--primary-color);
+color: var(--main-text-color);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
